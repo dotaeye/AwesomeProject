@@ -1,0 +1,12 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@remobile/react-native-splashscreen": "^1.0.3",
+    "react-native": "^0.21.0"
+  }
+}
