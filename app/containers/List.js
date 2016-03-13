@@ -21,7 +21,9 @@ export default class List extends Component {
   }
 
   onLogOut(){
-    this.props.authActions.logout();
+    AsyncStorage.removeItem(configs.authToken).then(()=>{
+      this.props.authActions.logout();
+    })
   }
 
   render() {
